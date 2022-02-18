@@ -14,7 +14,7 @@ In this exercise, you'll learn about application permissions, how to define them
 
   ![Screenshot of the App registrations](../../Linked_Image_Files/01-03-azure-ad-portal-home.png)
 
-4. On the **App registrations** page, select **= New registration**.
+4. On the **App registrations** page, select **+ New registration**.
 
   ![Screenshot of App Registrations page](../../Linked_Image_Files/01-03-azure-ad-portal-new-app-00.png)
 
