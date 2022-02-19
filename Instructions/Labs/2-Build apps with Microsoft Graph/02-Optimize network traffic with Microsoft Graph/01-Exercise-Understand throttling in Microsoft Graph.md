@@ -393,7 +393,7 @@ var client = GetAuthenticatedHTTPClient(config, userName, userPassword);
 
 18. Add the following code to issue many requests to Microsoft Graph. This code will create a collection of tasks to request a specific Microsoft Graph endpoint. When a task succeeds, it will write a dot to the console while failed request will write an `X` to the console. The most recent failed request's status code and headers are saved.
 
-19. All tasks are then executed in parallel. At the conclusion of all requests, the results are written to the console:
+19. Add the following code to the end of the `Main` method, just after the code added in the last step. All tasks are then executed in parallel. At the conclusion of all requests, the results are written to the console:
 
 ```csharp
 var totalRequests = 100;
